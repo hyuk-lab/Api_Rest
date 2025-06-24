@@ -15,11 +15,11 @@
 
         <?php
 
-        foreach ($filmes as $filme) {
+        foreach ($filmes as $filme){
             echo "<div class='filmes'";
-            echo "h2" . $filme["titulo"] . "<h2>";
-            echo "<img src= '" . $filme["poster"] . " 'alt='filme'>";
-            echo "<p>" . $filme['descricao'] . '</p>';
+            echo "h2".$filme["titulo"]."<h2>";
+            echo "<img src= '".$filme["poster"]." 'alt='filme'>";
+            echo "<p>".$filme['descricao'] .'</p>';
             echo "</div>";
         }
 

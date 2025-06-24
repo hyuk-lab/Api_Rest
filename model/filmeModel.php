@@ -23,7 +23,7 @@ function listarFilmes(){
 
     try {
         
-        $sql = "SELECT * FROM  INTO filmes";
+        $sql = "SELECT * FROM filmes";
 
         $result = $pdo->query($sql);
 
